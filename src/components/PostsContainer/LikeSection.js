@@ -4,14 +4,13 @@
 import React from "react";
 
 const LikeSection = props => {
-  console.log('likes', props)
   return (
     <div>
     <div
       className="like-section"
       key="likes-icons-container"
     >
-      <div className="like-section-wrapper" onClick={props.addLikes}>
+      <div className="like-section-wrapper">
         <i className="far fa-heart" />
       </div>
       <div className="like-section-wrapper">
@@ -20,7 +19,7 @@ const LikeSection = props => {
     </div>
     <p className="like-number">
       
-    {props.likes} likes</p>
+      likes</p>
 </div>
   )
 };
