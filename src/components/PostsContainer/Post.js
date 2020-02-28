@@ -5,7 +5,6 @@ import LikeSection from "./LikeSection";
 import PostHeader from "./PostHeader";
 
 import "./Posts.css";
-import { unstable_renderSubtreeIntoContainer } from "react-dom";
 
 // pass props in this file to
 const Post = props => {
